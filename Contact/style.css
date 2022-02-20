@@ -1,0 +1,168 @@
+/* header section */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 2px 5px 0px #ddd;
+}
+
+.header:hover{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 2px 15px 0px #ddd;
+}
+
+.logo {
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.our-nav a {
+    font-size: 20px;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.our-nav a.active {
+    color: blue;
+}
+
+    /* End header section  */
+
+      /* start title section */
+
+section.title {
+margin-top: 70px;
+}
+
+.title-upper-line {
+width: 140px;
+height: 4px;
+background: #666;
+margin: auto;
+margin-top: 60px;
+border-radius: 20px;
+}
+
+.title-bottom-line {
+width: 100px;
+height: 4px;
+background: #666;
+margin: auto;
+border-radius: 20px;
+}
+
+/* End title section */
+
+/* Start map section */
+
+.map-container {
+border-radius: 5px;
+box-shadow: 0px 2px 20px 0px #ddd;
+}
+
+.map-container iframe {
+border-radius: 5px;
+}
+
+/* End map section */
+
+/* Start main contact section */
+
+.contact-box {
+box-shadow: 0px 3px 5px 0px #ddd;
+text-align: center;
+padding: 20px;
+}
+
+.contact-box i {
+font-size: 30px;
+color: #4086f4;
+}
+
+.contact-box h1 {
+font-size: 25px;
+margin-top: 20px;
+}
+
+.contact-box:hover{
+transform: translateY(-5px);
+box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+/* End main contact section */
+
+/* Start help section */
+
+.stick {
+width: 380px;
+height: 5px;
+background: #999;
+border-radius: 100px;
+position: relative;
+}
+
+.rol {
+width: 30%;
+height: 8px;
+border: 2px solid #007CED;
+border-radius: 20px;
+position: absolute;
+top: -1px;
+left: 0;
+}
+
+.help input{
+width: 100%;
+border: 1px solid #ddd;
+outline: none;
+padding: 15px;
+margin-top: 20px;
+border-radius: 5px;
+}
+.help textarea{
+width: 100%;
+height: 206px;
+margin-top: 20px;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 5px;
+outline: none;
+}
+.help button{
+width: 100%;
+border: none;
+outline: none;
+background: #4086f4;
+color: #fff;
+padding: 20px;
+border-radius: 5px;
+margin-top: 20px;
+font-size: 20px;
+}
+
+
+/* End help section */
+
+
+    /* Start footer section */
+
+    footer.bg-gray {
+        background: #ddd;
+        padding-top: 20px;
+        margin-top: 40px;
+       
+    }
+
+
+    /* End footer section */
+

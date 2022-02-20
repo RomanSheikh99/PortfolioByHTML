@@ -1,0 +1,341 @@
+
+    /* header section */
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0px 2px 5px 0px #ddd;
+    }
+    
+    .header:hover{
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0px 2px 15px 0px #ddd;
+    }
+    
+    .logo {
+        width: 260px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .our-nav a {
+        font-size: 20px;
+        color: #333;
+        padding: 5px 10px;
+    }
+    
+    .our-nav a.active {
+        color: blue;
+    }
+    
+        /* End header section  */
+    
+        /* Start banner section  */
+    
+    .banner{
+        margin-top: 76px;
+        background: linear-gradient(0deg,#33333378,#33333378), url(img/bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .my-img img {
+        border-radius: 100%;
+        border: 6px solid #999;
+        box-shadow: 0px 0px 5px 5px #999;
+    }
+    
+    .my-img img:hover{
+        box-shadow: 0px 0px 20px 5px #999;
+        transform: translateY(-10px);
+    }
+    
+    .banner h2 {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 100px;
+    }
+    
+    .banner h1 {
+        color: #fff;
+        letter-spacing: 5px;
+        word-spacing: 20px;
+        font-size: 50px;
+    }
+    
+    .banner p {
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+    }
+    
+    
+    .banner .main-btn{
+        color: #000;
+        background: #fff;
+        font-size: 20px;
+        font-family: arial;
+    }
+    
+    .banner .main-btn:hover{
+        background: none;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 5px 11px;
+    }
+    
+    .banner .main-btn-1{
+        color: #fff;
+        font-size: 20px;
+        font-family: arial;
+        border: 2px solid #fff;
+        margin-left: 20px;
+        padding: 5px 20px;
+    }
+    
+    .banner .main-btn-1:hover{
+        background: #fff;
+        color: #000;
+    }
+    
+    svg {
+        height: 320px;
+        width: 100%;
+        margin-top: -240px;
+    }
+    
+        /* End banner section  */
+    
+    
+        /* Start what i do section  */
+    
+    .stick {
+        width: 200px;
+        height: 5px;
+        background: #999;
+        border-radius: 100px;
+        position: relative;
+    }
+        
+    .rol {
+        width: 90px;
+        height: 8px;
+        border: 2px solid #007CED;
+        border-radius: 20px;
+        position: absolute;
+        top: -1px;
+        left: 0;
+    }
+    
+    .my-work i {
+        background: #999;
+        color: #0086ff;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    .my-work h2 {
+        text-transform: capitalize;
+    }
+    
+    .my-work p {
+        letter-spacing: 1px;
+    }
+    
+        /* End what i do section  */
+    
+        /* Start testimonial section  */
+
+        section.Testimonial {
+            background: #ddd;
+            margin-top: -25px;
+        }
+        .Testimonial h1{
+            margin-top: 20px;
+        }
+
+        .testi-img {
+            width: 80px;
+            border-radius: 100%;
+            position: absolute;
+            top: -16%;
+            left: -8%;
+           
+            
+        }
+
+        
+        .testi-img img {
+            border-radius: 100%;
+        }
+        
+        .testi-card {
+            position: relative;
+            background: #666;
+            margin-left: 50px;
+            margin-top: 60px;
+            border-radius: 5px;
+        }
+        .testi-card p {
+            color: #ddd;
+            padding-left: 50px;
+            padding-right: 15px;
+            padding-top: 15px;
+            font-size: 18px;
+            letter-spacing: .8px;
+            line-height: 1.4;
+            font-family: arial;
+            text-align: justify;
+        }
+        
+        .testi-card h3 {
+            padding-left: 50px;
+            text-transform: capitalize;
+            color: #fff;
+        }
+        
+        .testi-card h4 {
+            padding-left: 50px;
+            font-size: 14px;
+            color: #3f3fea;
+            padding-bottom: 20px;
+        }
+
+        .testi-card sup{
+            font-size: 10px;
+        }
+        .Testimonial svg {
+            height: 320px;
+            width: 100%;
+            margin-top: -220px;
+        }
+        /* End testimonial section  */
+
+
+        /* Start clients section  */
+
+        /* no code */
+
+
+        /* End clients section  */
+
+
+        /* Start pricing section  */
+
+        section.Pricing {
+            background: #ddd;
+        }
+        
+        .price-card {
+            background: #666;
+            padding-left: 50px;
+        }
+        
+        .price-card h2 {
+            padding-top: 15px;
+            font-size: 25px;
+            color: #fff;
+        }
+        
+        .price-card h1 {
+            margin-top: 20px;
+            color: #fff;
+            font-size: 38px;
+            font-family: arial;
+        }
+        
+        .price-card h1 span {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        
+        .price-card p {
+            color: #ffffffb5;
+            font-size: 18px;
+            line-height: 1.7;
+            font-family: arial;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+        .price-card button{
+            width: 120px;
+            margin-top: 15px;
+            border: none;
+            outline: none;
+            padding: 8px 0px;
+            border-radius: 5px;
+            background: #4086f4;
+            color: #ffffffd9;
+            font-size: 16px;
+            font-family: arial;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            box-shadow: 0px 1px 2px 0px rgba(221, 221, 221, 0.829);
+        }
+
+        .price-card button:hover{
+            box-shadow: 0px 0px 0px 0px #ddd;
+        }
+        .price-card:hover{
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 10px 0px #555;
+        }
+        /* End pricing section  */
+         
+        /* start fun facts section */
+
+        .fun-facts-table {
+            background: #ddd;
+            border-radius: 10px;
+        }
+        
+        .fun-icon {
+            background: #666;
+            height: 100%;
+            color: #fff;
+            padding: 40px 25px;
+            font-size: 40px;
+            border-radius: 10px 0px 0px 10px;
+        }
+        
+        .fun-facts-table h1 {
+            font-size: 30px;
+            padding-top: 20px;
+            color: #4086f4;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+        
+        .fun-facts-table h2 {
+            font-size: 26px;
+        }       
+
+
+
+        /* End fun facts section */
+
+
+        /* Start footer section */
+
+        footer.bg-gray {
+            background: #ddd;
+            padding-top: 20px;
+           
+        }
+
+
+        /* End footer section */
+
